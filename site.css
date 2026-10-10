@@ -120,6 +120,13 @@ section > .lede { color: var(--muted); margin: 0 0 28px; max-width: 680px; }
 .paper .plinks { display: flex; gap: 14px; font-size: .88rem; font-weight: 500; margin-top: 4px; }
 .paper.featured { border-color: color-mix(in srgb, var(--accent) 35%, var(--line)); }
 
+/* Experience */
+.job { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 22px; margin-bottom: 14px; }
+.job h3 { font-size: 1.05rem; font-weight: 600; margin: 0 0 2px; }
+.job .org { margin: 0; color: var(--muted); font-size: .95rem; }
+.job .when { color: var(--faint); font-size: .88rem; font-weight: 500; white-space: nowrap; }
+.job .desc { flex-basis: 100%; margin: 6px 0 0; font-size: .94rem; }
+
 /* Lists */
 .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 22px; }
