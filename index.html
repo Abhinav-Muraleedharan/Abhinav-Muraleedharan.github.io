@@ -42,6 +42,19 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Recent Talk</heading>
+              <p>
+                <a href="https://youtu.be/ogI6cJtr3dg"><papertitle>Quantum Neural ODEs</papertitle></a>
+                <br>
+                <em>Fields Institute for Research in Mathematical Sciences</em>
+              </p>
+              <iframe width="100%" height="405" style="border:0;max-width:720px;" src="https://www.youtube.com/embed/ogI6cJtr3dg" title="Quantum Neural ODEs" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
@@ -53,7 +66,43 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/Conceptual_Diagram_v2.jpeg" alt="nonlinear schrodingerization" width="160" height="160">
+            </td>
+            <td width="100%" valign="middle">
+              <a href="https://arxiv.org/abs/2505.17170">
+                <papertitle>Simulating Time-Dependent and Nonlinear Classical Oscillators through Nonlinear Schrödingerization</papertitle>
+              </a>
+              <br>
+              <strong>Abhinav Muraleedharan</strong>, <a href="https://www.pnnl.gov/people/nathan-wiebe">Nathan Wiebe</a>
+              <br>
+              <em>arXiv preprint</em>, 2025
+              <br>
+              <a href="https://arxiv.org/abs/2505.17170">arXiv</a> /
+              <a href="data/muraleedharan2025nonlinear.bib">bibtex</a>
+              <p>Quantum computers can simulate the dynamics of 2<sup>n</sup> coupled harmonic oscillators in time polynomial in n, an exponential speedup over classical methods. Real physical systems, however, are rarely that clean: they are driven by time-dependent forces, have stiffness that changes over time, and include nonlinear interactions. Existing quantum algorithms do not cover these cases, which limits where the speedup can actually be used.</p>
+              <p>In this work we introduce <em>nonlinear Schrödingerization</em>. We rewrite the classical dynamics as a nonlinear Schrödinger equation, reduce it to a time-independent one using perturbative techniques, and handle weak nonlinearities by embedding them in a linear Schrödinger equation on a higher-dimensional space. Standard Hamiltonian simulation algorithms then apply. When the system can be queried and the initial state prepared efficiently, the cost is polynomial in n and nearly linear in evolution time for most systems. This extends quantum simulation to non-conservative and nonlinear classical systems.</p>
+            </td>
+          </tr>
 
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/linrep_lyapunov.png" alt="epsilon-close latents diverging with depth" width="160" height="160">
+            </td>
+            <td width="100%" valign="middle">
+              <a href="https://openreview.net/forum?id=fetTz1Xs2l">
+                <papertitle>On the Limits of Linear Representation Hypotheses in Large Language Models: A Dynamical Systems Analysis</papertitle>
+              </a>
+              <br>
+              <strong>Abhinav Muraleedharan</strong>
+              <br>
+              <em>Mechanistic Interpretability Workshop at NeurIPS</em>, 2025
+              <br>
+              <a href="https://openreview.net/pdf?id=fetTz1Xs2l">paper</a>
+              <p>Linear representation hypotheses and steering vectors assume that perturbations in latent space produce predictable changes in model behavior. We give a theoretical critique of this view by treating deep residual networks as dynamical systems. We prove that two latent vectors that start &epsilon;-close can diverge exponentially within O(log(1/&epsilon;)) layers under positive Lyapunov exponents. This sensitivity to initial conditions makes linear approximations unreliable in deep networks, and gives a theoretical account of the limits of current interpretability methods.</p>
+            </td>
+          </tr>
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -71,29 +120,7 @@
               <a href="data/abhinav_bdp.bib">bibtex</a>
               <p>In this paper, I introduced Score-life programming, a novel theoretical approach for solving reinforcement learning problems. In contrast with classical dynamic programming-based methods, the methods in this work can search over non-stationary policy functions, and can directly compute optimal infinite horizon action sequences from a given state.</p>
             </td>
-		  
           </tr>
-
-	<tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/Conceptual_Diagram_v2.jpeg" alt="prl" width="160" height="160">
-            </td>
-            <td width="100%" valign="middle">
-              <a href="https://arxiv.org/pdf/2505.17170">
-                <papertitle>Simulating Time-Dependent and Nonlinear Classical Oscillators through Nonlinear Schrödingerization</papertitle>
-              </a>
-              <br>
-              <strong>Abhinav Muraleedharan</strong>
-              <br>
-              <em>Research Paper </em>, 2023
-              <br>
-              <a href="data/abhinav_bdp.bib">bibtex</a>
-              <p>In this paper, we present quantum algorithms with exponential speedup for simulating several classical physical systems .</p>
-            </td>
-          </tr>
-
-    
-
         </tbody></table>
 
 				
@@ -127,7 +154,22 @@
               <br>
               <a href="https://www.mathematics.utoronto.ca/outreach">Course Instructor,Math Outreach Office, UofT </a>
               <br>
-            
+
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="padding:20px;width:25%;vertical-align:middle">
+              <heading>Teaching Assistant</heading>
+            </td>
+            <td width="75%" valign="middle">
+              CSC236H1F: Introduction to the Theory of Computation
+              <br>
+              CSC165H1S-B: Mathematical Expression and Reasoning for Computer Science
+              <br>
+              CSC2332HF: Introduction to Quantum Algorithms
+              <br>
+              CSC413H1S / CSC2516HS: Neural Networks and Deep Learning
+              <br>
             </td>
           </tr>
 					
